@@ -1,0 +1,137 @@
+/*
+ Theme Name: my Theme
+ Theme URI:
+ Description: Use this theme to start my theme.
+ Author: liran lin
+ Author URI: http://www.liranlin.com/
+ Template: thematic
+ Version: 1.0
+ Tags: Thematic
+ .
+ mytheme is © liran lin http://www.liranlin.com/
+ .
+ */
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+/* It's better to actually copy over default.css into this file (or link to a copy in your child theme) if you're going to do anything outrageous */
+@import url('../thematic/library/styles/default.css');
+/*@import url('../mytheme/default.css');*/
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/* Coda slider menu */
+@import url('../mytheme/coda-slider.css');
+
+/*font face adding*/
+@import url('../mytheme/font/font.css');
+
+/*blueprint grid adding*/
+@import url('../mytheme/grid.css');
+
+
+/* --------------------------------main wraper--------------------------------- */
+
+/*all page*/
+body {
+	background-color: #D3D3D3;
+}
+#wrapper{
+	background-color: #F2F2F2;
+	width: 814px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ----------------------------contact------------------------------- */
+
+#main{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-color: #F2F2F2;
+}
+
+#content{
+	width: auto;
+}
+
+
+/* ----------------------------logo and description------------------------ */
+#header{
+	display: block;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F2F2F2;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#branding{
+padding: 10px 5px 0px 5px;
+width: auto;
+float: left;
+
+}
+#blog-title {
+    font-family:'MarketingScriptRegular';
+    font-size:40px;
+    font-weight:bold;
+    line-height:40px;
+    text-align: left;
+    width: inherit;
+}
+
+
+#blog-description {
+    font-family: 'CicleSemi';
+    font-style: normal;
+    color: #666666;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 0px;
+	width: inherit;
+}
+
+/* ----------------------------main menu------------------------------- */
+
+/*all menu*/
+#access {
+	border: none;
+	overflow: visible;
+	float: right;
+	width: auto;
+
+}
+/*inside all the ul links*/
+.menu {
+	width:auto;
+}
+
+.menu ul {
+	border:none;
+}
+
+.menu ul a{
+	font-family: 'CicleGordita';
+	width:auto;
+	border:none;
+	background-color: #F2F2F2;
+}
